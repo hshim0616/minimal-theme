@@ -77,4 +77,5 @@ module.exports = {
       },
     },
   ].filter(Boolean),
+  pathPrefix: "/minimal-theme",
 }
