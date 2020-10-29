@@ -5,6 +5,7 @@ require(`dotenv`).config({
 const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 
 module.exports = {
+  pathPrefix: "/minimal-theme",
   siteMetadata: {
     siteTitleAlt: `Minimal Blog - Gatsby Theme`,
   },
@@ -78,3 +79,4 @@ module.exports = {
     },
   ].filter(Boolean),
 }
+
