@@ -77,5 +77,5 @@ module.exports = {
       },
     },
   ].filter(Boolean),
-  pathPrefix: "/minimal-theme",
+  pathPrefix: "https://hshim0616.github.io/minimal-theme/",
 }
